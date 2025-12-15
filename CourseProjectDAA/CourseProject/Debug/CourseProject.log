@@ -1,0 +1,41 @@
+﻿Сборка начата 15.12.2025 10:12:39.
+Уровень детализации журнала: Normal.     1>Проект "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject\CourseProject.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\CourseProject.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\CourseProject.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp
+         Error.cpp
+     1>C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject\Error.cpp(72,2): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_ENTRY_NODEF"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject.exe" /INCREMENTAL /ILK:"Debug\CourseProject.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject.lib" /MACHINE:X86 Debug\CG.obj
+         Debug\Error.obj
+         Debug\FST.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\Main.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\PN.obj
+         Debug\SemAn.obj
+         CourseProject.vcxproj -> C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject.exe
+       FinalizeBuildStatus:
+         Файл "Debug\CourseProject.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\CourseProject.tlog\CourseProject.lastbuildstate".
+     1>Сборка проекта "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject\CourseProject.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject\CourseProject.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject\Error.cpp(72,2): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_ENTRY_NODEF"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.85

@@ -1,0 +1,41 @@
+﻿Сборка начата 02.12.2025 10:40:25.
+Уровень детализации журнала: Normal.     1>Проект "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (BVA_Lib.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     1>InitializeBuildStatus:
+         Создание "Debug\CoursePr.aaf58391.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\CoursePr.aaf58391.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yc"pch.h" /Fp"Debug\CourseProject_LIB.pch" /Fo"Debug\\" /Fd"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yu"pch.h" /Fp"Debug\CourseProject_LIB.pch" /Fo"Debug\\" /Fd"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt CourseProject_Lib.cpp
+         CourseProject_Lib.cpp
+     1>C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.cpp(11,16): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+         (компиляция исходного файла "/CourseProject_Lib.cpp")
+         
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\Lib.exe /OUT:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_LIB.lib" /NOLOGO /MACHINE:X86 Debug\CourseProject_Lib.obj
+         Debug\pch.obj
+         CourseProject_Lib.vcxproj -> C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_LIB.lib
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: C:\Universety\KPO\Course_Project_KPO-main\BVA-2023\CourseProject_Lib\CourseProject_Lib.cpp.
+       FinalizeBuildStatus:
+         Файл "Debug\CoursePr.aaf58391.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\CoursePr.aaf58391.tlog\CourseProject_LIB.lastbuildstate".
+     1>Сборка проекта "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (BVA_Lib.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.cpp(11,16): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.82

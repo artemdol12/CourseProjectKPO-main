@@ -1,0 +1,86 @@
+numb func express(numb a, numb b){
+ add numb summab;
+ summab = a + b;
+ ret summab;
+}
+
+numb func expression(numb a, numb b){
+ add numb sm;
+ sm =  a + (express(a, b) + express(a,b) + (b - a)) - b * a;
+ ret sm;
+}
+
+main{
+ add numb func step(numb x, numb y);
+ add numb func iabs(numb x);
+ add numb a;
+ add numb b;
+ add numb c;
+ add numb d;
+ add numb z;
+ add numb one;
+ add numb zero;
+
+ a = 4;
+ b = 6;
+ one = 1;
+ zero = 0;
+
+ cout '... func step ...';
+ c = step(a,2);
+ cout c;
+ cout '... summ 4 and 6 ...';
+ c = a + b;
+ cout c;
+ cout '... sub 4 and 6 ...';
+ c = a - b;
+ cout c;
+ cout '... func iabs ...';
+ d = iabs(c);
+ cout '.. begin ..';
+ cout c;
+ cout '.. later ..';
+ cout d;
+ cout '... mul 4 and 6 ...';
+ c = b * a;
+ cout c;
+ cout '... summ hex ...';
+ a = 0x0A;
+ b = 0x1F;
+ c = b + a;
+ cout c;
+
+ cout '... AND 1 and 0 ...';
+ z = zero & one;
+ cout z;
+ cout '... OR 1 and 0 ...';
+ z = zero | one;
+ cout z;
+ cout '... NOT a ...';
+ z = a ~ 4;
+ cout z;
+
+ cout ' ... func expression ...';
+ add numb result;
+ result = expression(2, 6);
+ cout result;
+
+ add symb sa;
+ sa = 'W';
+ 
+ cout '... Out symb ...';
+ cout sa;
+
+cout '... do-while loop ...';
+ 
+add numb counter;
+counter = 3;
+cout '... do-while loop ...';
+do [
+    cout 'Counter: ';
+    cout counter;
+    counter = counter - 1;
+] while(counter > 0);
+ 
+ret 0;
+}

@@ -1,0 +1,39 @@
+﻿Сборка начата 11.12.2025 15:00:15.
+Уровень детализации журнала: Normal.     1>Проект "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_ASM\CourseProject_ASM.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (CourseProject_ASM.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     1>InitializeBuildStatus:
+         Создание "Debug\CoursePr.f1e15f7d.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\CoursePr.f1e15f7d.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling ..\CourseProject\in.txt.asm...
+         cmd.exe /C "C:\Users\sasha\AppData\Local\Temp\tmp60c4425e06e14c31b97a387b55e60f8c.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\in.txt.obj" /W3 /errorReport:prompt  /Ta..\CourseProject\in.txt.asm
+     1>Проект "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_ASM\CourseProject_ASM.vcxproj" (1) выполняет сборку "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" (2:3) в узле 2 (целевые объекты GetProjectInfoForReference).
+     2>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (BVA_Lib.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     2>Сборка проекта "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" завершена (целевые объекты GetProjectInfoForReference).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_ASM.exe" /INCREMENTAL /ILK:"Debug\CourseProject_ASM.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_ASM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_ASM.lib" /MACHINE:X86 "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_LIB.lib"
+         Debug\in.txt.obj
+         CourseProject_ASM.vcxproj -> C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\Debug\CourseProject_ASM.exe
+       FinalizeBuildStatus:
+         Файл "Debug\CoursePr.f1e15f7d.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\CoursePr.f1e15f7d.tlog\CourseProject_ASM.lastbuildstate".
+     1>Сборка проекта "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_ASM\CourseProject_ASM.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_ASM\CourseProject_ASM.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (CourseProject_ASM.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_ASM\CourseProject_ASM.vcxproj" (целевой объект Build ) (1) ->
+       "C:\Universety\KPO\Course_Project_KPO-main\CourseProjectDAA\CourseProject_Lib\CourseProject_Lib.vcxproj" (целевой объект GetProjectInfoForReference ) (2:3) ->
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (BVA_Lib.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.51
